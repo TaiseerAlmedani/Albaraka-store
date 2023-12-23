@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col v-for="product in Items" :key="product.id" cols="12" sm="12" md="6" lg="4" xl="4">
+      <v-col v-for="product in Items" :key="product.id" cols="12" sm="12" md="6" lg="4" xl="3">
         <ProductItem :product="product"></ProductItem>
       </v-col>
     </v-row>
