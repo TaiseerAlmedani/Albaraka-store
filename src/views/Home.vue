@@ -5,10 +5,10 @@
         Albaraka store
       </h1>
       <h4 class="subtitle text-h3">
-        All your needs in one market
+        {{ $t('heroSection.title') }}
       </h4>
       <v-btn to="/products" color="primary mt-10">
-        All Prducts <v-icon>mdi mdi-arrow-right</v-icon>
+                {{ $t('heroSection.subtitle') }} <v-icon>mdi mdi-arrow-right</v-icon>
       </v-btn>
     </div>
   </v-parallax>

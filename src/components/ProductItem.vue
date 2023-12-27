@@ -1,5 +1,5 @@
 <template>
-<v-card theme="dark">
+<v-card>
   <v-card-title class="text-center">
     {{ product.title }}
   </v-card-title>
